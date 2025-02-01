@@ -33,7 +33,7 @@ export const MobileMenu = () => {
       </button>
       <aside
         className={clsx(
-          'bg-white dark:bg-zinc-900 h-[calc(100vh-65px)] w-screen left-0 bottom-0 transform-gpu transition-all ease-in-out fixed z-[15] md:hidden',
+          'bg-white dark:bg-zinc-900 h-[calc(100dvh-65px)] w-screen left-0 bottom-0 transform-gpu transition-all ease-in-out fixed z-[15] md:hidden',
           isOpen ? 'max-md:translate-x-0' : 'max-md:-translate-x-full'
         )}
       >
